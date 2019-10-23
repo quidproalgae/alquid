@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar"
+    app:startDestination="@id/loginActivity">
+    <activity
+        android:id="@+id/fragment_home"
+        android:name="com.qpa.alquid.HomeActivity"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment android:id="@+id/placeholder" />
+    <activity
+        android:id="@+id/activity_login"
+        android:name="com.qpa.alquid.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment android:id="@+id/placeholder2" />
+</navigation>
